@@ -5,12 +5,12 @@ function myTimer() {
   document.getElementById("CurrentTime").innerHTML = d.toLocaleTimeString();
 }
 
-var canvas = document.getElementById("canvas");
+var canvas = document.getElementById("canvasClock");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
 ctx.translate(radius, radius);
 radius = radius * 0.90
-setInterval(drawClock, 1000);
+setInterval(drawClock1, 1000);
 
 /*
 
@@ -23,7 +23,7 @@ function drawClock() {
 */
 
 
-function drawClock() {
+function drawClock1() {
   drawFace(ctx, radius);
   
 /*  
