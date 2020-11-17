@@ -19,13 +19,21 @@ function drawClock() {
   ctx.fill();
 }
 
-/*
+
 
 function drawClock() {
   drawFace(ctx, radius);
+  
+/*  
+  
   drawNumbers(ctx, radius);
+  
+  
   drawTime(ctx, radius);
+  
+ */
 }
+
 
 function drawFace(ctx, radius) {
   var grad;
@@ -45,6 +53,8 @@ function drawFace(ctx, radius) {
   ctx.fillStyle = '#333';
   ctx.fill();
 }
+
+
 
 function drawNumbers(ctx, radius) {
   var ang;
@@ -94,4 +104,3 @@ function drawHand(ctx, pos, length, width) {
     ctx.rotate(-pos);
 }
 
-*\
