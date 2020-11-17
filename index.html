@@ -39,6 +39,20 @@
     <h5>The first day, Nov 16, 2020</h5>
 	
     <canvas id="canvasClock" width="400" height="400" style="background-color:#333"></canvas> <p id="CurrentTime"> Acquiring time </p>
+	<script>
+	var canvas = document.getElementById("canvas");
+	var ctx = canvas.getContext("2d");
+	var radius = canvas.height / 2;
+	ctx.translate(radius, radius);
+	radius = radius * 0.90
+	drawClock();
+
+	function drawClock() {
+		ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
+		ctx.fillStyle = "white";
+		ctx.fill();
+}
+</script>
     <p>Well i added a clock that updates every second... I also made this site so thats something</p>
     <p>The plan for this website is that i make a change to this page or do something with code... and post it here.</p>
     <br>
