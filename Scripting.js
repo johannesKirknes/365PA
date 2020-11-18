@@ -41,3 +41,4 @@ seconds.animate({transform: "r" + second * 6 + "," + 32 + "," + 32}, 500, mina.e
 }
 
 setInterval(updateTime, 1000)
+
