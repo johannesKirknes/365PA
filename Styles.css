@@ -97,8 +97,7 @@ body {
   }
 }
 
-.clock {
-  position: absolute;
+.clock { 
   width: 64px;
   height: 64px;
   top: 50%;
