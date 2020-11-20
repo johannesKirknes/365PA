@@ -15,10 +15,6 @@ body {
   color: white;
 }
 
-.main span {
-	padding: 64px;
-}
-
 /* trying to fix the clock by adding padding */
 .main p {
   padding: 1px;
