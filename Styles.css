@@ -16,8 +16,8 @@ body {
 }
 
 /* trying to fix the clock by adding padding */
-.main p {
- 
+.main span {
+ margin: 2px auto 0px;
 }
 
 
