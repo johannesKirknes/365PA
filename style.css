@@ -12,10 +12,11 @@ body {
   
   /*
   float: left;
+  */
+  
   transform-origin-x: 50%;
   transform-origin-y: 50%;
   transform-origin-z: initial;
-  */
   
   transform: scale(3,3);
 }
